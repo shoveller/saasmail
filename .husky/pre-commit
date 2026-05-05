@@ -1,5 +1,1 @@
-if grep -q '"packageManager": "pnpm@' package.json; then
-  pnpm exec lint-staged
-else
-  yarn lint-staged
-fi
+yarn lint-staged
